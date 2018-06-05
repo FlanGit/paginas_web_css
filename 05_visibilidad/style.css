@@ -1,5 +1,38 @@
-body section.desaparece:hover{
-    background-color: brown;
-    color: rgb(70, 191, 247); 
-    font-weight: 900; 
+*{
+  box-sizing: border-box;
+}
+
+h1{
+  background-color: #FFE4C4;
+}
+body{
+  margin: 2rem;
+
+}
+section div.wrapper{
+  background-color: #FFE4C4;
+  border: 2px solid ;
+  overflow: auto;
+}
+ section div.wrapper div{
+    float: left;
   }
+
+section div.wrapper-texto{
+  width: 70%;
+  padding: 2rem;
+}
+section div.wrapper-imagen{
+width: 25%;
+visibility: hidden;
+
+}
+section  div.wrapper-imagen img{
+  width: 100%;
+  padding: 2rem;
+ 
+}
+section div.wrapper:hover div.wrapper-imagen{
+  visibility: visible;
+}
+

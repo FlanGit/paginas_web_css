@@ -12,6 +12,7 @@ h1 {
     background-color: darkorange
 }
 
+
 section div.wrapper {
     background-color: bisque;
     overflow: auto;
@@ -24,7 +25,7 @@ section div.text-wrapper {
     width: 70%;
     padding: 2rem;
     
-}   
+}
 
 section div.img-wrapper {
     width: 25%;
