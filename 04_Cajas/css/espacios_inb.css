@@ -1,0 +1,43 @@
+/* Reset */
+
+/* ANADIR SIEMPRE*/
+/*******************************/
+* {box-sizing: border-box;}   
+/*******************************/
+body {
+    margin: 5%;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Layout */
+
+p {
+    width: calc(94%/4);
+     float: left;
+     padding: 1.5rem;    
+}
+
+p:not(:last-child) {
+    margin-right: 2%;
+} 
+
+p:first-child {
+    /* border-left: 1px solid;  */
+}
+
+/* LOS IMPARES*/
+p:nth-child(odd) {
+    background-color: aqua;
+    border: 3px solid rgb(255, 0, 0);
+    
+    
+}
+/* LOS PARES*/
+p:nth-child(even) {
+    background-color: bisque;
+    border: 3px solid rgb(255, 0, 0);
+}

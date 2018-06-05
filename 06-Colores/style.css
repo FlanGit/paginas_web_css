@@ -1,0 +1,17 @@
+/* Padre */
+section>div {
+    width: 8rem;
+    height: 8rem;
+    background-color: chartreuse;
+    opacity: 0.5;
+}
+/* hijo hereda la opacidad de su Padre */
+section>div>div {
+    width:  4rem;
+    height: 4rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    border: 1px solid;
+    background-color: blueviolet;
+    
+}

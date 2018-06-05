@@ -1,0 +1,5 @@
+body section.desaparece:hover{
+    background-color: brown;
+    color: rgb(70, 191, 247); 
+    font-weight: 900; 
+  }
