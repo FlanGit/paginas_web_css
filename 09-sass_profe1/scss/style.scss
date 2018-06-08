@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2rem;
+    background-color: bisque;
+}
+
+// Aqui va el header
+@import "header.scss";
+
+footer {
+    address {
+        p { 
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+    >p{ color: maroon}
+}
