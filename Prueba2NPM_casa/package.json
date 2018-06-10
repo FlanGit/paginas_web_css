@@ -1,0 +1,23 @@
+{
+  "name": "Prueba2NPM_casa",
+  "version": "1.0.0",
+  "description": "probando desde casa crear proyecto con npm init",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"parallelshell \"npm run server\" \"npm run sass:watch\"",
+    "server":"http-server",
+    "sass":"sass scss:css",
+    "sass:watch":"nodemon -e scss -x \"sass scss:css\"" 
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "author": "Francisco Frias",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  }
+}
