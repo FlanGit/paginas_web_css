@@ -9,7 +9,7 @@ body {
 
 header {
   width: 60%;
-  margin-left: auto;
+  margin-left: 30%;
   margin-right: auto;
 }
 header h1 {
@@ -19,6 +19,28 @@ header h1 {
 header p {
   margin-top: 0;
   font-size: 1.5rem;
+}
+header:hover {
+  background-color: #32f7b6;
+}
+header p:hover {
+  color: blue;
+}
+
+section h2, section p {
+  color: maroon;
+  font-family: "Courier New", Courier, monospace;
+}
+section p {
+  font-size: 1.1rem;
+}
+
+footer address p {
+  margin-top: 0;
+  margin-bottom: 10;
+}
+footer > p {
+  color: maroon;
 }
 
 /*# sourceMappingURL=css/style.css.map */

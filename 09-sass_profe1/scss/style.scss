@@ -9,7 +9,17 @@ body {
 
 // Aqui va el header
 @import "header.scss";
+section{
+    h2{
+        color: maroon;
+        font-family: 'Courier New', Courier, monospace;
 
+    }
+    p{ @extend h2;
+    font-size: 1.1rem;    
+    }
+
+}
 footer {
     address {
         p { 
