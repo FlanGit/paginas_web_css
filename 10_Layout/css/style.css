@@ -45,9 +45,11 @@ nav li {
   display: inline-block;
 }
 nav a {
-  color: inherit;
+  color: #fac000;
   text-decoration: none;
-  padding: 1.5rem 2rem;
+  padding: 1rem 2rem;
+  border: 5px solid #ff5555;
+  background-color: black;
 }
 
 main {
@@ -88,7 +90,6 @@ footer {
   text-align: center;
   padding-top: 2rem;
 }
-
 footer p {
   margin-top: 0;
 }
