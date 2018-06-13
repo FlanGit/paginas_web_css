@@ -3,12 +3,29 @@
 }
 
 header {
-  background-image: url("../assets/home-bg.jpg");
+  position: relative;
   height: 100vh;
+}
+header div {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: url("../assets/home-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
+header div::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  content: "";
+  background-color: darkgray;
+  opacity: 0.5;
+}
 header h1 {
+  position: relative;
   clear: both;
   text-align: center;
   padding-top: 40vh;
@@ -17,18 +34,25 @@ header h1 {
 }
 
 nav {
+<<<<<<< HEAD
+=======
+  position: relative;
+  width: 50%;
+>>>>>>> 23848945dd7f8cd2f824e4e769257ea0037a677a
   float: right;
 }
 nav ul {
   list-style: none;
 }
-nav ul li {
+nav li {
   display: inline-block;
 }
-nav ul li a {
-  color: inherit;
+nav a {
+  color: #fac000;
   text-decoration: none;
-  padding: 1.5rem 2rem;
+  padding: 1rem 2rem;
+  border: 5px solid #ff5555;
+  background-color: black;
 }
 
 main {
@@ -69,7 +93,6 @@ footer {
   text-align: center;
   padding-top: 2rem;
 }
-
 footer p {
   margin-top: 0;
 }
