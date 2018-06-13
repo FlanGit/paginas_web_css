@@ -1,0 +1,28 @@
+div {
+    width: 50%;
+    background-color: salmon;
+    padding: 1rem;
+    margin: 1rem;
+  }
+  div p {
+    padding: 2rem;
+    background-color: lightblue;
+  }
+  p {
+    padding: 2rem;
+    background-color: rgb(187, 108, 151);
+  }
+  .relative {
+    position: relative;
+    top: -4rem;
+    /* left: 0rem;
+    right: 0;
+    bottom: 0; */
+  }
+
+  .absolute {
+    position: absolute;
+    /* top: 0%;
+    left: 0%; */
+    bottom: 0%;
+  }
