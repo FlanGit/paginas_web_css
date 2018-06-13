@@ -16,11 +16,12 @@ header div {
 }
 header div::before {
   position: absolute;
+  content: "";
+  /* height: 100%; */
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  content: "";
   background-color: darkgray;
   opacity: 0.5;
 }
@@ -34,25 +35,20 @@ header h1 {
 }
 
 nav {
-<<<<<<< HEAD
-=======
   position: relative;
   width: 50%;
->>>>>>> 23848945dd7f8cd2f824e4e769257ea0037a677a
   float: right;
 }
 nav ul {
   list-style: none;
 }
-nav li {
+nav ul li {
   display: inline-block;
 }
-nav a {
-  color: #fac000;
+nav ul li a {
+  color: inherit;
   text-decoration: none;
-  padding: 1rem 2rem;
-  border: 5px solid #ff5555;
-  background-color: black;
+  padding: 1.5rem 2rem;
 }
 
 main {
