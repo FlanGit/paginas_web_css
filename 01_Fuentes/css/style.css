@@ -11,9 +11,26 @@ body{
     background-color: rgb(229, 229, 157);
 }
 
+.icono_inicio {
+    position: absolute;
+    font-size: 3rem;
+    padding: 1rem;
+    background-color: brown;
+    border-radius: 50%;
+    color: blue;
+    cursor: pointer;
+    font-style: italic;
+}
+.icono_inicio:hover {
+    background-color: olive;
+    color:tomato;
+    font-size: 4rem;
+} 
 h1{
 /*     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
         font-family: perma,cursive;
+        font-size: 5rem;
+
 }
    
 h2{
